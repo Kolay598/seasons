@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Лаптев Николай" />
+    <title>Осень</title>
+    <link rel="icon" href="favicon0.png" />
+    <link rel="stylesheet" href="Autumn.css" />
+
+    <script type="text/javascript">
+      totalFrames = 3;
+      frameNumber = 0;
+      function changeFavicon() {
+        var link = document.querySelector("link[rel~='icon']");
+        link.href = "favicon" + frameNumber + ".png";
+        frameNumber = (frameNumber + 1) % totalFrames;
+      }
+
+      setInterval(changeFavicon, 500);
+    </script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 style = "
+            background-color: rgb(255, 112, 56);
+            padding:50px;
+            text-align:center;">
+            Осень</h1>
+        </div>
+    </header>
+    <section id="poem">
+        <p>
+           <p>
+            Унылая пора! Очей очарованье! <br>
+            Приятна мне твоя прощальная краса — <br>
+            Люблю я пышное природы увяданье, <br>
+            В багрец и в золото одетые леса, <br>
+            В их сенях ветра шум и свежее дыханье, <br>
+            И мглой волнистою покрыты небеса, <br>
+            И редкий солнца луч, и первые морозы, <br>
+            И отдаленные седой зимы угрозы.
+           </p>
+    
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Kiprensky_Pushkin.jpg">
+    </section>
+</section>
+<section id="prazdniki">
+    <a href="https://ru.wikipedia.org/wiki/Международный_женский_день">1 сентября</a>
+<a href="https://ru.wikipedia.org/wiki/День_смеха">5 октября</a>
+<a href="https://ru.wikipedia.org/wiki/День_Победы">31 октября</a>
+</section>
+<section id="priznaki"><p>
+        <h3>Признаки Осени</h3>
+    <ul>
+        <li id="warm" >Опадает листва</li>
+        <li>Листья желтеют</li>
+        <li>Аллергия</li>
+        <li>Хэллоуин</li>
+        <li>Учеба</li>
+    </ul>
+    </section>
+    <section id="meow">
+        <img src="img/Untitled.png" alt="Крокодил">
+    </section>
+    <section id="pics">
+        <img src ="img/соединенные-штаты-америки-нью-йорк-bloom-blossom.jpg" alt="летo">
+        <img src ="img/8d7f9badf53894aeaf6576c13e43763b.jpeg" alt="летo">
+        <img src ="img/a1eef7e3196fecd94dd254d02596b2fd.jpeg" alt="летo">
+        <img src ="img/2055073f01c9030652885785b1b3-1615450.png" alt="летo">
+    </section>
+    <script src="script.js"></script> 
+    <section id="calendar">
+        <table>
+            <caption>Календарь весна </caption>
+            <tr>
+            <td>Сентябрь</td>
+            <td>30 день</td> 
+            </tr>
+            <tr>
+            <td>Октябрь</td>
+            <td>31 дней</td>
+            </tr>
+            <td>Ноябрь</td>
+            <td>30 день</td>
+            </tr>
+            </table>
+        
+        </section>
+        <section id="film">
+            <video src="img/период вишневых цветов. капли весеннего дождя падают на вишневый цветок. снято на супер медленной камере 1000 кадров в секунду._preview.mp4"
+            controls
+            autoplay
+            muted>
+            </video>
+        </section>
+</body>
+</html>

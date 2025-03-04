@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=*, initial-scale=1.0">
+    <title>summer</title>
+</head>
+<body>
+    <h1 style="
+        background-color:blue;
+        color :rgb(5, 138, 255);
+        text-align:center;">
+        Лето 2025 </h1>  
+    <p>
+        До чего хорош денек!<br>
+        Веет легкий ветерок.<br>
+        Солнца летнего лучи<br>
+        Так приятно горячи!<br>
+     <p>
+        <h2>Признаки лета</h2>
+        <ul>
+        <li>тепло</li>
+        <li>солнечно</li>
+        <li>дача</li>
+        <li>каникулы</li>
+     </ul>
+</body>
+</html>

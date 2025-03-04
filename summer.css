@@ -1,0 +1,70 @@
+#pics img {
+    width: 23%;
+    height: 300px;
+object-fit: cover;
+cursor: pointer;
+transition: all 0.15s;
+}
+#pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#pics img:hover{
+    transform: scale(1.05);
+}
+table{
+    border: 10px groove brown;
+    padding: 30px;
+    margin-left: 43%;
+    margin-top: 1%;
+    border-spacing: 15px;
+    /* border-collapse: collapse; */
+}
+td{
+    padding: 15px;
+    border: 5px solid orange;
+    border-radius: 50%;
+    text-align: center;
+}
+caption{
+color: rgb(0, 0, 0);
+}
+#film video {
+    width: 50%;
+    height: 300px;
+    object-fit:cover;
+}
+#film {
+    padding: 50px;
+    text-align: center;
+    background-color: gold;
+
+}
+#opros  {
+padding: 50px;
+background-color: lightpink;
+text-align: center;
+}
+#sonne {
+    position: absolute;
+    top: 50px;
+    left: 14%;
+    animation: run 10s infinite;
+}
+@keyframes run{
+    from {left: 14%; transform: rotate(0);}
+    50% {left: 86%; transform: rotate(360deg);}
+    to {left: 14%; transform: rotate(0);}
+}
+#banan {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 14%;
+    animation: foll 5s infinite;
+}
+@keyframes foll{
+    top{top: 50px;}
+    to{top: 1000px;}
+}

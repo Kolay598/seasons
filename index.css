@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+    background-image: url(img/1624875176_13-phonoteka_org-p-oboi-na-rabochii-stol-vremena-goda-krasivo-18.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.526);
+    height: 100vw;
+    box-sizing: border-box;
+}
+
+h1 {
+text-align: center;
+color: antiquewhite;
+font-size: 5vw;
+}
+
+nav {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+nav a {
+    color: whitesmoke;
+    font-size: 3vw;
+    text-decoration: none;
+    transition: all 0.8s;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+nav  a:hover {
+    text-decoration: underline;
+    background-color: rgb(218, 179, 255);
+    transform: scale(1.1);
+}
+
+#clock {
+    width: 170px;
+    height: 170px;
+    border: 10px groove greenyellow;
+    margin: auto;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 50%;
+}
+
+#strelka1 {
+    position: absolute;
+    width: 45%;
+    height: 4px;
+    background-color: greenyellow;
+    top: calc(50% - 2px);
+    left: 50%;
+    animation: go 60s infinite linear;
+    transform-origin: left;
+}
+
+#strelka2 {
+    position: absolute;
+    width: 35%;
+    height: 4px;
+    background-color: greenyellow;
+    top: calc(50% - 2px);
+    left: 50%;
+    animation: go 3600s infinite linear;
+    transform-origin: left;
+}
+
+@keyframes go {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}    
+}
